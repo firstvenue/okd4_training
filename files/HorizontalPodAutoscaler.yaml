@@ -1,0 +1,19 @@
+apiVersion: autoscaling/v2beta2 
+kind: HorizontalPodAutoscaler
+metadata:
+  name: cpu-autoscale 
+  namespace: default
+spec:
+  scaleTargetRef:
+    apiVersion: v1 
+    kind: ReplicationController 
+    name: example 
+  minReplicas: 1 
+  maxReplicas: 10 
+  metrics: 
+  - type: Resource
+    resource:
+      name: cpu 
+      target:
+        type: Utilization 
+        averageValue: 500m
