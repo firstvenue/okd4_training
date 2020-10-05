@@ -3,7 +3,7 @@
 This Training material was designed to mostly cover [EX280 - Red Hat Certified Specialist in OpenShift Administration exam](https://www.redhat.com/en/services/training/ex280-red-hat-certified-specialist-in-openshift-administration-exam?section=Objectives) objectives.
 
 
-<span style="font-size:2em;">👉 [Training Material](http://10.10.0.60:3000/csirkesajt/okd4training/wiki)  
+<span style="font-size:2em;">👉 [Training Material](https://github.com/tothti/okd4_training/wiki)  
 👉 [Official OKD documentation](https://docs.okd.io/latest/welcome/index.html)</span>
 
 
